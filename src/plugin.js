@@ -7,7 +7,7 @@ export default async (ctx, inject) => {
             return () => ({})
         })
     if (process.server) {
-        ctx.$state = Vue.observable(state())
+        ctx.$state = Vue.observable(await state())
         ctx.ssrContext.nuxt.observable = ctx.$state
     } else {
         ctx.$state = Vue.observable(window.__NUXT__.observable)
