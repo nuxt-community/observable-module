@@ -1,0 +1,19 @@
+{
+  "name": "@nuxtjs/observable",
+  "version": "0.0.1",
+  "description": "Vue.observable() state module for Nuxt.js",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Jonas Galvez (@galvez)"
+    }
+  ],
+  "main": "src/index.js",
+  "repository": "nuxt-community/observable-module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src"
+  ]
+}
