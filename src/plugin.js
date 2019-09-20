@@ -3,8 +3,7 @@ import Vue from 'vue'
 export default async (ctx, inject) => {
     const state = await import('~/state')
         .then(m => m.default)
-        .catch(_ => {
-            consola.warn('No state.js file found in srcDir')
+        .catch(() => {
             return () => ({})
         })
     if (process.server) {

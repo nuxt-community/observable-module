@@ -1,6 +1,6 @@
 {
   "name": "@nuxtjs/observable",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha",
   "description": "Vue.observable() state module for Nuxt.js",
   "license": "MIT",
   "contributors": [
