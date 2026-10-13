@@ -1,3 +1,6 @@
+> [!NOTE]
+> This repository is archived. `@nuxtjs/observable` was built for Nuxt 2, which reached end of life on June 30, 2024.
+
 # @nuxtjs/observable
 
 ## Setup
